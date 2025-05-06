@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edit Student</title>
+  <link rel="stylesheet" href="style4.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Edit Student</h1>
+    <form id="editForm">
+      <input type="hidden" id="editIndex" />
+      <label for="editName">Name:</label>
+      <input type="text" id="editName" required />
+
+      <label for="editAge">Age:</label>
+      <input type="number" id="editAge" required />
+
+      <label for="editCourse">Course:</label>
+      <select id="editCourse" required>
+        <option value="">Select Course</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Java Development">Java Development</option>
+        <option value=".NET Development">.NET Development</option>
+      </select>
+      
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+  <script src="edit.js"></script>
+
+</body>
+</html>

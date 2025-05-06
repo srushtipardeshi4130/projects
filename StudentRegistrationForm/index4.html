@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style4.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Student Registration System</h1>
+    <form id="studentForm">
+      <input type="hidden" id="studentIndex" />
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter Name" required />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" placeholder="Enter Age" required />
+
+      <label for="course">Course:</label>
+      <select id="course" required>
+        <option value="">Select Course</option>
+        <option value="Web Development">Web Development</option>
+        <option value=" Java Development">Java Development</option>
+        <option value=".NET Development">.NET Development</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th style="width: 20%;">Name</th>
+          <th style="width: 10%;">Age</th>
+          <th style="width: 20%;">Course</th>
+          <th style="width: 20%;">Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    
+  </div>
+
+  <script src="script4.js"></script>
+</body>
+</html>
