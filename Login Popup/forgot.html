@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forgot Password</title>
+  <link rel="stylesheet" href="style6.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <h2>Recover Account</h2>
+      <label for="email">Enter your registered email:</label>
+      <input type="email" id="recoveryEmail" placeholder="Enter email" required>
+      <button onclick="recoverAccount()">Send Recovery Link</button>
+      <div class="links">
+        <a href="index6.html">Back to Login</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    function recoverAccount() {
+      const email = document.getElementById('recoveryEmail').value;
+      if (email) {
+        alert(`Recovery instructions sent to ${email}`);
+      } else {
+        alert("Please enter your registered email.");
+      }
+    }
+  </script>
+</body>
+</html>
+
