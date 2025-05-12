@@ -1,1 +1,3 @@
-sdfg
+This Weather Checker web app allows users to search for real-time weather information by simply entering a city name. 
+Built using HTML, CSS, and JavaScript, the app uses the OpenWeatherMap API to fetch live weather data such as temperature and conditions. 
+JavaScript handles the API call, parses the JSON response, and dynamically updates the DOM to display the results or show an error if the city is not found.
