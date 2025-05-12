@@ -1,2 +1,4 @@
 This is a basic and easy-to-use Sum & Average Calculator made with HTML, CSS, and JavaScript. 
 You can enter two numbers, click the Calculator button, and it will show you the total sum and the average.
+The JavaScript function takes input values, converts them to numbers, performs the calculation, 
+and shows the result on the screen.
