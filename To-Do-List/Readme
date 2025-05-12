@@ -1,1 +1,4 @@
-asfg
+This is a simple and user-friendly To-Do List web app built using HTML, CSS, and JavaScript.
+Users can add, edit, delete, and mark tasks as completed. 
+JavaScript is used to handle all actions on the page like adding new tasks, updating them, deleting tasks, and filtering the view All, Active, Completed. 
+It also saves the task list in the browser using localStorage, so your data stays even after refreshing the page.
