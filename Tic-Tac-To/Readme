@@ -1,1 +1,3 @@
-abcd
+This is a classic Tic Tac Toe game built with HTML, CSS, and JavaScript. It features a responsive 3x3 grid where two players X and O take turns. 
+JavaScript dynamically handles the game logic — including turn switching, win condition checks, draw detection, and restarting the game. 
+The grid and game state are managed entirely in JavaScript using arrays, event listeners, and DOM manipulation to provide a smooth interactive experience.
