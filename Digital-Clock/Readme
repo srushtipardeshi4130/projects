@@ -1,1 +1,5 @@
-qwer
+This is a simple Digital Clock Web Page that displays the current time in 24-hour format (HH:MM:SS). 
+The clock updates every second using JavaScript.
+The JavaScript code uses the Date() object to get the current time, formats it to always show two digits,and updates the HTML content inside the #clock element. 
+The setInterval() method is used to call the updateClock() function every 1000 milliseconds (1 second) 
+keeping the time display accurate in real-time.
