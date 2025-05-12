@@ -1,0 +1,5 @@
+This is a responsive Login Form built using HTML, CSS, and JavaScript. The form features a clean, centered layout with fields For email and password input, along with a Show Password toggle For user convenience. 
+JavaScript handles basic validation to ensure both fields are filled before allowing login. 
+Upon submission, the form displays the entered credentials using an alert, making it ideal For demonstrating front-end login functionality without a backend. 
+It also includes helpful links For password recovery and user registration.
+
