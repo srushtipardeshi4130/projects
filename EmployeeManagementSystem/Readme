@@ -1,5 +1,6 @@
-This is a responsive landing page project for PizzaFactory, a fictional pizza delivery brand. The page is built using HTML, CSS, and JavaScript, featuring a visually appealing layout with a bold hero section, brand logo, and a clear call-to-action button.
-The navigation bar allows users to smoothly explore different sections of the page. JavaScript has been used to add interactive elements such as dynamic scrolling behavior and menu link highlighting, enhancing the user experience. 
-The design is optimized for various screen sizes, making it suitable for both desktop and mobile users.
-
+This is a simple and responsive Employee Management System built using HTML, CSS, and JavaScript. 
+It allows users to manage employee data directly in the browser using localStorage. 
+Users can view, add, edit, and delete employee information through an intuitive interface. 
+The application includes a clean navigation bar, dynamic table updates, and basic input prompts for editing entries. 
+This project is ideal for understanding how to manipulate DOM elements and work with browser storage for a smooth user experience without a backend server.
 
