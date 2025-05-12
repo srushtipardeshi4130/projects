@@ -1,1 +1,4 @@
-asdf
+This Student Registration System is a simple yet interactive web application developed using HTML, CSS, and JavaScript. 
+It allows users to register students with their name, age, and course, and view the data dynamically in a table format. 
+JavaScript is used to handle form submissions, validate input fields, update and delete student records, and persist data using localStorage enabling the app to retain student entries even after page reloads.
+The system also includes features like inline editing and user feedback using popup notifications for a better user experience.
